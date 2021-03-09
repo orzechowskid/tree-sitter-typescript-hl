@@ -1,13 +1,10 @@
 steps to reproduce:
 
 1. `$ emacs -Q`
-2. `(require 'tree-sitter)`
-3. `(require 'tree-sitter-langs)`
-4. `(require 'typescript-mode)`
-5. open src/index.tsx
-6. `M-x typescript-mode`
-7. `M-x tree-sitter-mode`
-8. `M-x tree-sitter-hl-mode`
+2. load `tree-sitter`, `tree-sitter-langs`, and `typescript-mode`
+3. open src/index.tsx
+4. enable `typescript-mode`, `tree-sitter-mode`, and `tree-sitter-hl-mode`
+5. place point on an opening or closing JSX tag
 
 expected behavior:
 
